@@ -1,0 +1,45 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+
+    .text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h2 {
+            width: 450px;
+            text-align: center;
+            font-size: 42px;
+            color: white;
+            font-weight: 300;
+        }
+
+        span {
+            color: rgb(162, 152, 152);
+        }
+
+        a {
+            border: 1px solid orange;
+            background-color: orange;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 2px;
+            transition: 0.2s all ease
+        }
+
+        a:hover {
+            transform: translateY(-6px);
+        }
+    }
+
+}

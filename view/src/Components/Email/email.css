@@ -1,0 +1,51 @@
+.email-container {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg.webp');
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+
+    .email-main {
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        justify-content: center;
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            color: white;
+            /* width: 300px; */
+            text-align: center;
+        }
+
+        .mail {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input {
+                padding: 20px;
+                background: none;
+                font-size: 19px;
+                font-weight: 700;
+                border: 1px solid white;
+                border-radius: 4px;
+            }
+
+            a {
+                background-color: orange;
+                padding: 20px;
+                border-radius: 3px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

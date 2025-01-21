@@ -1,0 +1,18 @@
+
+
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 0px;
+    .logo{
+        margin: 25px;
+        color: white;
+    }
+    .menu-icon{
+        margin:25px;
+        font-size: 30px;
+        color: white;
+    }
+}

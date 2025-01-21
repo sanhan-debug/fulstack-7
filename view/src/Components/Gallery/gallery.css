@@ -1,0 +1,22 @@
+.gallery-container{
+    .images{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img{
+            width: 400px;
+            height: 300px;
+            margin: 8px;
+            transition: 0.2s all ease;
+        }
+
+        img:hover{
+            width: 450px;
+            height: 350px;
+        }
+
+
+    }
+}
