@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 import express from 'express'
 import dotenv from 'dotenv'
 import cors from 'cors'
 import { connect } from 'mongoose'
 import { guestRouter } from './Routes/guestRouter.js'
 
+// mongodb+srv://sanhan:sanhan2006@guests.mhjy0.mongodb.net/?retryWrites=true&w=majority&appName=guests
 
 dotenv.config()
 const app = express()
@@ -23,7 +23,4 @@ app.listen(PORT ,()=>{
 })
 
 
-app
-=======
 
->>>>>>> 352a2cc837950ac473fa09ebb65d2d4e469c579c
